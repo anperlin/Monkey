@@ -133,7 +133,7 @@ do{\
 #define EVERY(X) OGNI(X)
 #define IF if(
 #define THEN ){
-#define ELSE }{
+#define ELSE }else{
 #define ENDIF }
 #define ALL(X,...) SONO(X,__VA_ARGS__)
 #define ANY(X,...) ALCUNI(X,__VA_ARGS__)
