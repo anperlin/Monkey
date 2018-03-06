@@ -12,7 +12,7 @@ Si declina ogni responsabilità sull'uso della presente libreria, nata con inten
 INSTALLAZIONE:
 si installa come una qualsiasi libreria di arduino, 
  1) crea una directory chiamata monkey dentro Arduino\libreries 
- 2) scarica e copia  i file monkey.h e monkey.cpp dentro la directory monkey 
+ 2) scarica e copia  i file monkey.h , monkey.cpp , keywords.txt e COPYING.LESSER dentro la directory monkey 
  3) dall'ambiete di sviluppo di arduino : vai sul menu Sketch poi #include libreria e gestione libreria. 
  4) inserire nella finestra "filtra la tua ricerca" la parola monkey, dovrebeb apaprire la libreria appena copiata, selezionarla e cliccare sul pulsnate in basso a destra. 
  
