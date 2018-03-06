@@ -36,11 +36,11 @@
 #define INTERRUTTORE 1
 
 
-/*
+
 #define E &&
 #define O ||
 #define NON !
-*/
+
 
 #define NOMI_TIMER(...) enum nt{ntz=0,##__VA_ARGS__}
 #define NOMI_PULSANTI(...) enum np{npz=0,##__VA_ARGS__}
@@ -107,7 +107,7 @@ do{\
     if(tmx[A].isBlinker() && tmx[A].isToff() && tmx[A].flagBlinkOff){tmx[A].ripristinaPins();tmx[A].flagBlinkOff=false;}   \
     if(tmx[A].Stop()){tmx[A].resetTIMER();};
 /*
-1 definizione del timer: non è startable, doaction=false non può fare nessuna azione e non è stoppabile.
+1 definizione del timer: non Ã¨ startable, doaction=false non puÃ² fare nessuna azione e non Ã¨ stoppabile.
 */
 #define NULLA
 #define TIPOPULSANTE(Id,Tipo) btx[Id].tipo=Tipo;
