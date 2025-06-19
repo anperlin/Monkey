@@ -9,7 +9,7 @@ La libreria è composta principalmente da macro del preprocessore C, una classe 
 
 Questa libreria è stata sviluppata con finalità didattiche e si declina ogni responsabilità per un suo utilizzo in contesti critici. Se decidete di usarla, ad esempio, per controllare il sistema di raffreddamento di un reattore nucleare… lo fate a vostro rischio e pericolo.
 
-#Installazione
+
 L’installazione è identica a quella di qualsiasi altra libreria Arduino:
 
 Crea una directory chiamata monkey dentro la cartella Arduino\libraries.
