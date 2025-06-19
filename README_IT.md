@@ -9,3 +9,17 @@ La libreria è composta principalmente da macro del preprocessore C, una classe 
 
 Questa libreria è stata sviluppata con finalità didattiche e si declina ogni responsabilità per un suo utilizzo in contesti critici. Se decidete di usarla, ad esempio, per controllare il sistema di raffreddamento di un reattore nucleare… lo fate a vostro rischio e pericolo.
 
+#Installazione
+L’installazione è identica a quella di qualsiasi altra libreria Arduino:
+
+Crea una directory chiamata monkey dentro la cartella Arduino\libraries.
+
+Scarica e copia al suo interno i file: monkey.h, monkey.cpp, keywords.txt e COPYING.LESSER.
+
+Apri l’ambiente di sviluppo Arduino, vai su Sketch > #include libreria > Gestione librerie.
+
+Nella barra "Filtra la tua ricerca", digita monkey: la libreria dovrebbe comparire.
+
+Selezionala e clicca sul pulsante in basso a destra per completare l’installazione.
+
+Per l’elenco completo dei comandi e i relativi esempi di utilizzo, consulta il wiki del progetto.
